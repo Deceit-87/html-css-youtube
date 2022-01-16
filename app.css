@@ -48,7 +48,7 @@
   /* SIDE BAR  */
 
 
-  @media screen and (max-width:800px){
+  @media screen and (min-width:801px) and (max-width:1330px){
 
     .side-bar{ 
         width:50px;
@@ -79,4 +79,11 @@
     .widget:nth-child(2) .widget__menu li:first-child {
         display: block;
     }
+  }
+
+
+  @media screen and (max-width:800px) {
+      .side-bar{
+          display:none;
+      }
   }
