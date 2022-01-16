@@ -42,3 +42,41 @@
       transition: 0.5s;
     }
   }
+
+
+
+  /* SIDE BAR  */
+
+
+  @media screen and (max-width:800px){
+
+    .side-bar{ 
+        width:50px;
+        transition: 0.5s;
+    }
+    .widget__menu .menu-item  p {
+        display: none;
+    }
+    .widget__menu .menu-item .icon{
+        margin: 0;
+    }
+    .widget:nth-child(2){
+        padding-top: 0;
+       
+       
+    }
+    .widget{
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+    .side-bar .widget:last-child{
+        display: none;
+    }
+
+    .widget:nth-child(2) .widget__menu li{
+        display: none;
+    }
+    .widget:nth-child(2) .widget__menu li:first-child {
+        display: block;
+    }
+  }
