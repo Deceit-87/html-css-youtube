@@ -1,7 +1,7 @@
 
 
   
-  @media screen and (min-width: 509px){
+  @media screen and (max-width: 509px){
     .play-list{
       flex-wrap: wrap;
     }
@@ -9,6 +9,7 @@
       width: 98%;
       transition: 0.5s;
     }
+ 
   }
 
   
@@ -32,7 +33,7 @@
     }
   }
  
-  @media screen and (min-width: 891px){
+  @media screen and (min-width: 1140px){
     .play-list{
       flex-wrap: wrap;
     }
