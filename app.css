@@ -1,0 +1,16 @@
+
+
+  
+
+  
+  @media screen and (max-width: 890px){
+    .play-list{
+      flex-wrap: wrap;
+    }
+    .play-list-item{
+      width: 32%;
+    }
+  }
+  
+
+ 
